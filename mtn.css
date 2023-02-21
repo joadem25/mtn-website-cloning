@@ -1,0 +1,304 @@
+/* body {
+    height: 2000px;
+} */
+
+
+div.btn-group:hover ul.dropdown-menu{
+    margin-top: 35%;
+    display: block;
+}
+
+li.nav-item:hover ul.dropdown-menu {
+    display: block;
+} 
+
+#dmTextColor {
+    color: white;
+    
+}
+
+div.carousel-item img {
+    height: 200px;
+}
+
+.hero1 {
+    background-image: url('./Images/MoMo_2_.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 150px;
+}
+
+p.heroT {
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+    /* background-color: red; */
+}
+
+p.heroTt {
+    font-size: 72px;
+    color: white;
+    font-weight: 700;
+    /* background-color: blue; */
+}
+.hero2 {
+    background-image: url('./Images/NIN-MTNO.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 150px;
+}
+
+.hero3 {
+    background-image: url('./Images/New-Broadband-look_.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 150px;
+}
+
+.hero4 {
+    background-image: url('./Images/code-of-ethics.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 150px;
+}
+
+#heroMiniSec_1 {
+    background-image: url(./Images/mtnPersonal-removebg-preview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-bottom-left-radius: 50% 10%;
+    border-bottom-right-radius: 50% 10%;
+    border-top-left-radius: 50% 10%;
+    border-top-right-radius: 50% 10%;
+    /* border: 2px solid red; */
+    box-shadow: 2px 2px 5px rgb(56, 55, 55);
+}
+
+#heroMiniSec_2 {
+    background-image: url(./Images/mtnBusiness-removebg-preview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgb(56, 55, 55);
+    border-bottom-left-radius: 50% 10%;
+    border-bottom-right-radius: 50% 10%;
+    border-top-left-radius: 50% 10%;
+    border-top-right-radius: 50% 10%;
+}
+
+#heroMiniSec_3 {
+    background-image: url(./Images/mtnPlay-removebg-preview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgb(56, 55, 55);
+    border-bottom-left-radius: 50% 10%;
+    border-bottom-right-radius: 50% 10%;
+    border-top-left-radius: 50% 10%;
+    border-top-right-radius: 50% 10%;
+}
+
+#heroMiniSec_4 {
+    background-image: url(./Images/mtnMomo-removebg-preview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgb(56, 55, 55);
+    border-bottom-left-radius: 50% 10%;
+    border-bottom-right-radius: 50% 10%;
+    border-top-left-radius: 50% 10%;
+    border-top-right-radius: 50% 10%;
+}
+
+#curveStyle {
+    border-bottom-left-radius: 50% 10%;
+    border-bottom-right-radius: 50% 10%;
+}
+
+#curveStyle1 {
+    border-bottom-left-radius: 50% 30%;
+    border-bottom-right-radius: 50% 30%;
+}
+
+.background1 {
+    background-color: #FFCC00;
+}
+
+.personal {
+    display: grid;
+    height: 100px;
+    /* gap: 0 20px; */
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+}
+
+.personalPersonal {
+    width: fit-content;
+    height: fit-content; 
+    /* background-color: red;  */
+    margin-left: -310px;
+    font-weight: 500;
+    font-size: 35px;
+    
+}
+
+#persImage {
+    height: 50px;
+    width: 50px;
+    background-image: url(./Images/Capture_personal.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+}
+
+
+
+.persCaro {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* flex-wrap: nowrap;
+    flex-direction: row; */
+    gap: 20px;
+    /* overflow: hidden; */
+    transform: translate(-197.5px);
+    
+}
+
+.pers-items {
+    height: 350px;
+    width: 335px;
+    background-color: yellow;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+p.serviceName {
+    background-color: yellow;
+    width: fit-content;
+    font-weight: bolder;
+    font-size: 14px;
+    padding: 3px;
+}
+
+p.serviceServiceName {
+    font-size: 24px;
+
+}
+
+a.noDecoration {
+    text-decoration: none;
+    color: black;
+}
+
+.persCaro1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* flex-wrap: nowrap;
+    flex-direction: row; */
+    gap: 20px;
+    /* overflow: hidden; */
+    transform: translate(-197.5px);
+}
+
+.pers-items1 {
+    height: 350px;
+    width: 335px;
+    background-color: blue;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+#boldArrow {
+    font-weight: 900;
+}
+
+#mtnBroadband {
+    background-image: url('./Images/mtnBroadband.jpeg');
+    background-repeat: no-repeat;
+    background-size: 140% 100%;
+}
+
+#mtnDataPlans {
+    background-image: url('./Images/banner-data3.jpg');
+    background-repeat: no-repeat;
+    background-size: 140% 100%;
+}
+
+#personal4g {
+    background-image: url('./Images/4G-Banner.jpg');
+    background-repeat: no-repeat;
+    background-size: 140% 100%;
+}
+
+#mPulse {
+    background-image: url('./Images/mPulse-Web-2.jpg');
+    background-repeat: no-repeat;
+    background-size: 140% 100%;
+}
+
+#tariffPlan {
+    background-image: url('./Images/banner-home-xtravalue.jpg');
+    background-repeat: no-repeat;
+    background-size: 140% 100%; 
+}
+
+#roaming {
+    background-image: url('./Images/Travel-4.jpg');
+    background-repeat: no-repeat;
+    background-size: 140% 100%;
+}
+
+#hynetflex {
+    /* background-image: url('./Images/mtnBroadband.jpeg'); */
+    background-repeat: no-repeat;
+    background-size: 140% 100%;
+}
+
+#prodNColl {
+    background-image: url('./Images/banner-home-card-hynet.jpg');
+    background-repeat: no-repeat;
+    background-size: 140% 100%;
+}
+
+#prodNColl1 {
+    background-image: url('./Images/banner-home-card-callassist.jpg');
+    background-repeat: no-repeat;
+    background-size: 140% 100%;
+}
+
+p.serviceNameB {
+    background-color: #212529;
+    width: fit-content;
+    font-weight: bolder;
+    font-size: 14px;
+    padding: 3px;
+    color: white;
+}
+
+#footer {
+    color: white;
+    background-color: black;
+    margin-top: 100px;
+    padding: 5%;
+}
